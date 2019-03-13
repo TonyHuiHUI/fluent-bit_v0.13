@@ -1,0 +1,194 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2371384112/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2371384112.dir/build.make CMakeFiles/cmTryCompileExec2371384112.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2371384112.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c"'    -o CMakeFiles/cmTryCompileExec2371384112.dir/CheckSymbolExists.c.o   -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2371384112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2371384112.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"'     CMakeFiles/cmTryCompileExec2371384112.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2371384112 -rdynamic 
+CMakeFiles/cmTryCompileExec2371384112.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2371384112] Error 1
+gmake: *** [cmTryCompileExec2371384112/fast] Error 2
+
+File /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3125380441/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3125380441.dir/build.make CMakeFiles/cmTryCompileExec3125380441.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3125380441.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"/usr/share/cmake/Modules/CheckFunctionExists.c"' -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3125380441.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3125380441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3125380441.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3125380441.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3125380441 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3125380441] Error 1
+gmake: *** [cmTryCompileExec3125380441/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test MSGPACK_ENABLE_GCC_CXX_ATOMIC failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3123413432/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3123413432.dir/build.make CMakeFiles/cmTryCompileExec3123413432.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3123413432.dir/src.cxx.o
+/usr/bin/c++    -DMSGPACK_DEFAULT_API_VERSION=2 -std=c++98  -DMSGPACK_ENABLE_GCC_CXX_ATOMIC   -o CMakeFiles/cmTryCompileExec3123413432.dir/src.cxx.o -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.cxx
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.cxx:2:28: fatal error: bits/atomicity.h: No such file or directory
+ #include <bits/atomicity.h>
+                            ^
+compilation terminated.
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3123413432.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec3123413432/fast] Error 2
+
+Source file was:
+
+#include <bits/atomicity.h>
+int atomic_sub(int i) { return __gnu_cxx::__exchange_and_add(&i, -1) - 1; }
+int atomic_add(int i) { return __gnu_cxx::__exchange_and_add(&i, 1) + 1; }
+int main(int argc, char * argv[])
+{
+    atomic_sub(1);
+    atomic_add(1);
+}
+
+Performing C SOURCE FILE Test HAVE_KQUEUE failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3488276668/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3488276668.dir/build.make CMakeFiles/cmTryCompileExec3488276668.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3488276668.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"bin/CMakeFiles/CMakeTmp/src.c"' -DHAVE_KQUEUE   -o CMakeFiles/cmTryCompileExec3488276668.dir/src.c.o   -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: sys/event.h: No such file or directory
+   #include <sys/event.h>
+                         ^
+compilation terminated.
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3488276668.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec3488276668/fast] Error 2
+
+Source file was:
+
+  #include <sys/event.h>
+  int main() {
+     return kqueue();
+  }
+Performing C SOURCE FILE Test FLB_HAVE_VALGRIND failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2874575595/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2874575595.dir/build.make CMakeFiles/cmTryCompileExec2874575595.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2874575595.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"bin/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_VALGRIND   -o CMakeFiles/cmTryCompileExec2874575595.dir/src.c.o   -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:2:33: fatal error: valgrind/valgrind.h: No such file or directory
+   #include <valgrind/valgrind.h>
+                                 ^
+compilation terminated.
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2874575595.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec2874575595/fast] Error 2
+
+Source file was:
+
+  #include <valgrind/valgrind.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test FLB_HAVE_TIMESPEC_GET failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2187724621/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2187724621.dir/build.make CMakeFiles/cmTryCompileExec2187724621.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2187724621.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"bin/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_TIMESPEC_GET   -o CMakeFiles/cmTryCompileExec2187724621.dir/src.c.o   -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:5:6: warning: implicit declaration of function 'timespec_get' [-Wimplicit-function-declaration]
+      return timespec_get(&tm, TIME_UTC);
+      ^
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:5:31: error: 'TIME_UTC' undeclared (first use in this function)
+      return timespec_get(&tm, TIME_UTC);
+                               ^
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:5:31: note: each undeclared identifier is reported only once for each function it appears in
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/src.c:6:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2187724621.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2187724621/fast] Error 2
+
+Source file was:
+
+  #include <time.h>
+  int main() {
+     struct tm tm;
+     return timespec_get(&tm, TIME_UTC);
+  }
+Determining if the accept4 exist failed with the following output:
+Change Dir: /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1687935185/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1687935185.dir/build.make CMakeFiles/cmTryCompileExec1687935185.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1687935185.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c"'    -o CMakeFiles/cmTryCompileExec1687935185.dir/CheckSymbolExists.c.o   -c /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'accept4' undeclared (first use in this function)
+   return ((int*)(&accept4))[argc];
+                   ^
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gmake[1]: Leaving directory `/root/share/fluent-bit/bin/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1687935185.dir/CheckSymbolExists.c.o] Error 1
+gmake: *** [cmTryCompileExec1687935185/fast] Error 2
+
+File /root/share/fluent-bit/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef accept4
+  return ((int*)(&accept4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

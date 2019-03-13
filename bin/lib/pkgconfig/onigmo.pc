@@ -1,0 +1,14 @@
+prefix=/root/share/fluent-bit/bin
+exec_prefix=/root/share/fluent-bit/bin
+libdir=/root/share/fluent-bit/bin/lib
+includedir=/root/share/fluent-bit/bin/include
+datarootdir=/root/share/fluent-bit/bin/share
+datadir=/root/share/fluent-bit/bin/share
+
+Name: onigmo
+Description: Regular expression library
+Version: 6.1.2
+Requires:
+Libs: -L${libdir} -lonigmo
+Cflags: -I${includedir}
+

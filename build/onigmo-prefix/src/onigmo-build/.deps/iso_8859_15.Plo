@@ -1,0 +1,17 @@
+iso_8859_15.lo: /root/share/fluent-bit/lib/onigmo/enc/iso_8859_15.c \
+ /usr/include/stdc-predef.h /root/share/fluent-bit/lib/onigmo/regenc.h \
+ config.h /root/share/fluent-bit/lib/onigmo/onigmo.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /root/share/fluent-bit/lib/onigmo/enc/iso_8859.h
+
+/usr/include/stdc-predef.h:
+
+/root/share/fluent-bit/lib/onigmo/regenc.h:
+
+config.h:
+
+/root/share/fluent-bit/lib/onigmo/onigmo.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/root/share/fluent-bit/lib/onigmo/enc/iso_8859.h:

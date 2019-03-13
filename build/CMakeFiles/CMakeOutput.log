@@ -1,0 +1,988 @@
+The system is: Linux - 4.9.87-linuxkit-aufs - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/share/fluent-bit/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/share/fluent-bit/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3545118280/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3545118280.dir/build.make CMakeFiles/cmTryCompileExec3545118280.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3545118280.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3545118280.dir/testCCompiler.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3545118280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3545118280.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3545118280.dir/testCCompiler.c.o  -o cmTryCompileExec3545118280 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec690196069/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec690196069.dir/build.make CMakeFiles/cmTryCompileExec690196069.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec690196069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690196069.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec690196069 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec690196069' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec690196069 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec690196069/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec690196069.dir/build.make CMakeFiles/cmTryCompileExec690196069.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec690196069]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690196069.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec690196069 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec690196069' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec690196069 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec690196069] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec690196069.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2117943342/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2117943342.dir/build.make CMakeFiles/cmTryCompileExec2117943342.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2117943342.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2117943342.dir/testCXXCompiler.cxx.o -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2117943342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2117943342.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2117943342.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2117943342 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4270430969/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4270430969.dir/build.make CMakeFiles/cmTryCompileExec4270430969.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4270430969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4270430969.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4270430969 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4270430969' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4270430969 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec4270430969/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4270430969.dir/build.make CMakeFiles/cmTryCompileExec4270430969.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4270430969]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4270430969.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4270430969 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4270430969' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4270430969 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4270430969] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec4270430969.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec613957074/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec613957074.dir/build.make CMakeFiles/cmTryCompileExec613957074.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec613957074.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"'    -o CMakeFiles/cmTryCompileExec613957074.dir/CheckIncludeFiles.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec613957074
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec613957074.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"'     CMakeFiles/cmTryCompileExec613957074.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec613957074 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3635054292/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3635054292.dir/build.make CMakeFiles/cmTryCompileExec3635054292.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3635054292.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"/usr/share/cmake/Modules/CheckFunctionExists.c"' -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3635054292.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3635054292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3635054292.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3635054292.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3635054292 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STAT_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3800881383/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3800881383.dir/build.make CMakeFiles/cmTryCompileExec3800881383.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3800881383.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_STAT_H   -o CMakeFiles/cmTryCompileExec3800881383.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:6:9: warning: unused variable 'x' [-Wunused-variable]
+     int x = S_IXUSR;
+         ^
+Linking C executable cmTryCompileExec3800881383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3800881383.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_STAT_H    CMakeFiles/cmTryCompileExec3800881383.dir/src.c.o  -o cmTryCompileExec3800881383 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/types.h>
+  #include <sys/stat.h>
+  #include <unistd.h>
+  int main() {
+    int x = S_IXUSR;
+    S_ISLNK(0);
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_SYS_UIO_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec741713782/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec741713782.dir/build.make CMakeFiles/cmTryCompileExec741713782.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec741713782.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_SYS_UIO_H   -o CMakeFiles/cmTryCompileExec741713782.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec741713782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec741713782.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_SYS_UIO_H    CMakeFiles/cmTryCompileExec741713782.dir/src.c.o  -o cmTryCompileExec741713782 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/uio.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_UNISTD_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1003619264/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1003619264.dir/build.make CMakeFiles/cmTryCompileExec1003619264.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1003619264.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_UNISTD_H   -o CMakeFiles/cmTryCompileExec1003619264.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1003619264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1003619264.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_UNISTD_H    CMakeFiles/cmTryCompileExec1003619264.dir/src.c.o  -o cmTryCompileExec1003619264 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_EPOLL succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2627792901/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2627792901.dir/build.make CMakeFiles/cmTryCompileExec2627792901.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2627792901.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EPOLL   -o CMakeFiles/cmTryCompileExec2627792901.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2627792901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2627792901.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EPOLL    CMakeFiles/cmTryCompileExec2627792901.dir/src.c.o  -o cmTryCompileExec2627792901 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/epoll.h>
+  int main() {
+     return epoll_create(1);
+  }
+Performing C SOURCE FILE Test HAVE_TIMERFD_CREATE succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec254195873/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec254195873.dir/build.make CMakeFiles/cmTryCompileExec254195873.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec254195873.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_TIMERFD_CREATE   -o CMakeFiles/cmTryCompileExec254195873.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec254195873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec254195873.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_TIMERFD_CREATE    CMakeFiles/cmTryCompileExec254195873.dir/src.c.o  -o cmTryCompileExec254195873 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/timerfd.h>
+  int main() {
+     return timerfd_create(CLOCK_REALTIME, 0);
+  }
+Performing C SOURCE FILE Test HAVE_EVENTFD succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2782387982/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2782387982.dir/build.make CMakeFiles/cmTryCompileExec2782387982.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2782387982.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EVENTFD   -o CMakeFiles/cmTryCompileExec2782387982.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2782387982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2782387982.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EVENTFD    CMakeFiles/cmTryCompileExec2782387982.dir/src.c.o  -o cmTryCompileExec2782387982 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/eventfd.h>
+  int main() {
+     return eventfd(0, EFD_CLOEXEC);
+  }
+Performing C SOURCE FILE Test FLB_HAVE_FORK succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3705070892/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3705070892.dir/build.make CMakeFiles/cmTryCompileExec3705070892.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3705070892.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_FORK   -o CMakeFiles/cmTryCompileExec3705070892.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3705070892
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3705070892.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_FORK    CMakeFiles/cmTryCompileExec3705070892.dir/src.c.o  -o cmTryCompileExec3705070892 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     fork();
+     return 0;
+  }
+Performing C SOURCE FILE Test FLB_HAVE_C_TLS succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec430875162/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec430875162.dir/build.make CMakeFiles/cmTryCompileExec430875162.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec430875162.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_C_TLS   -o CMakeFiles/cmTryCompileExec430875162.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:4:8: warning: implicit declaration of function '__tls_get_addr' [-Wimplicit-function-declaration]
+        __tls_get_addr(0);
+        ^
+Linking C executable cmTryCompileExec430875162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec430875162.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_C_TLS    CMakeFiles/cmTryCompileExec430875162.dir/src.c.o  -o cmTryCompileExec430875162 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   __thread int a;
+   int main() {
+       __tls_get_addr(0);
+       return 0;
+   }
+Performing C SOURCE FILE Test FLB_HAVE_ACCEPT4 succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1018818340/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1018818340.dir/build.make CMakeFiles/cmTryCompileExec1018818340.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1018818340.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_ACCEPT4   -o CMakeFiles/cmTryCompileExec1018818340.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1018818340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018818340.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_ACCEPT4    CMakeFiles/cmTryCompileExec1018818340.dir/src.c.o  -o cmTryCompileExec1018818340 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #define _GNU_SOURCE
+    #include <stdio.h>
+    #include <sys/socket.h>
+    int main() {
+        accept4(0, NULL, NULL, 0);
+        return 0;
+    }
+Performing C SOURCE FILE Test FLB_HAVE_INOTIFY succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2388191141/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2388191141.dir/build.make CMakeFiles/cmTryCompileExec2388191141.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2388191141.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_INOTIFY   -o CMakeFiles/cmTryCompileExec2388191141.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2388191141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2388191141.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_INOTIFY    CMakeFiles/cmTryCompileExec2388191141.dir/src.c.o  -o cmTryCompileExec2388191141 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/inotify.h>
+    int main() {
+        return inotify_init1(0);
+    }
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1650439940/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1650439940.dir/build.make CMakeFiles/cmTryCompileExec1650439940.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1650439940.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"'    -o CMakeFiles/cmTryCompileExec1650439940.dir/CheckIncludeFiles.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1650439940
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1650439940.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"'     CMakeFiles/cmTryCompileExec1650439940.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1650439940 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2667369718/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2667369718.dir/build.make CMakeFiles/cmTryCompileExec2667369718.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2667369718.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"/usr/share/cmake/Modules/CheckFunctionExists.c"' -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2667369718.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2667369718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2667369718.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2667369718.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2667369718 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STAT_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1157211666/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1157211666.dir/build.make CMakeFiles/cmTryCompileExec1157211666.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1157211666.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_STAT_H   -o CMakeFiles/cmTryCompileExec1157211666.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:6:9: warning: unused variable 'x' [-Wunused-variable]
+     int x = S_IXUSR;
+         ^
+Linking C executable cmTryCompileExec1157211666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1157211666.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_STAT_H    CMakeFiles/cmTryCompileExec1157211666.dir/src.c.o  -o cmTryCompileExec1157211666 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/types.h>
+  #include <sys/stat.h>
+  #include <unistd.h>
+  int main() {
+    int x = S_IXUSR;
+    S_ISLNK(0);
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_SYS_UIO_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec28264928/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec28264928.dir/build.make CMakeFiles/cmTryCompileExec28264928.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec28264928.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_SYS_UIO_H   -o CMakeFiles/cmTryCompileExec28264928.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec28264928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec28264928.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_SYS_UIO_H    CMakeFiles/cmTryCompileExec28264928.dir/src.c.o  -o cmTryCompileExec28264928 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/uio.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_UNISTD_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1044512543/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1044512543.dir/build.make CMakeFiles/cmTryCompileExec1044512543.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1044512543.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_UNISTD_H   -o CMakeFiles/cmTryCompileExec1044512543.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1044512543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1044512543.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_UNISTD_H    CMakeFiles/cmTryCompileExec1044512543.dir/src.c.o  -o cmTryCompileExec1044512543 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_EPOLL succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1259365356/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1259365356.dir/build.make CMakeFiles/cmTryCompileExec1259365356.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1259365356.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EPOLL   -o CMakeFiles/cmTryCompileExec1259365356.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1259365356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1259365356.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EPOLL    CMakeFiles/cmTryCompileExec1259365356.dir/src.c.o  -o cmTryCompileExec1259365356 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/epoll.h>
+  int main() {
+     return epoll_create(1);
+  }
+Performing C SOURCE FILE Test HAVE_TIMERFD_CREATE succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1618319266/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1618319266.dir/build.make CMakeFiles/cmTryCompileExec1618319266.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1618319266.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_TIMERFD_CREATE   -o CMakeFiles/cmTryCompileExec1618319266.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1618319266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1618319266.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_TIMERFD_CREATE    CMakeFiles/cmTryCompileExec1618319266.dir/src.c.o  -o cmTryCompileExec1618319266 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/timerfd.h>
+  int main() {
+     return timerfd_create(CLOCK_REALTIME, 0);
+  }
+Performing C SOURCE FILE Test HAVE_EVENTFD succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1158401555/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1158401555.dir/build.make CMakeFiles/cmTryCompileExec1158401555.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1158401555.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EVENTFD   -o CMakeFiles/cmTryCompileExec1158401555.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1158401555
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1158401555.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EVENTFD    CMakeFiles/cmTryCompileExec1158401555.dir/src.c.o  -o cmTryCompileExec1158401555 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/eventfd.h>
+  int main() {
+     return eventfd(0, EFD_CLOEXEC);
+  }
+Performing C SOURCE FILE Test FLB_HAVE_FORK succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3335533690/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3335533690.dir/build.make CMakeFiles/cmTryCompileExec3335533690.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3335533690.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_FORK   -o CMakeFiles/cmTryCompileExec3335533690.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3335533690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3335533690.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_FORK    CMakeFiles/cmTryCompileExec3335533690.dir/src.c.o  -o cmTryCompileExec3335533690 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     fork();
+     return 0;
+  }
+Performing C SOURCE FILE Test FLB_HAVE_C_TLS succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec533422365/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec533422365.dir/build.make CMakeFiles/cmTryCompileExec533422365.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec533422365.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_C_TLS   -o CMakeFiles/cmTryCompileExec533422365.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:4:8: warning: implicit declaration of function '__tls_get_addr' [-Wimplicit-function-declaration]
+        __tls_get_addr(0);
+        ^
+Linking C executable cmTryCompileExec533422365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec533422365.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_C_TLS    CMakeFiles/cmTryCompileExec533422365.dir/src.c.o  -o cmTryCompileExec533422365 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   __thread int a;
+   int main() {
+       __tls_get_addr(0);
+       return 0;
+   }
+Performing C SOURCE FILE Test FLB_HAVE_ACCEPT4 succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1551505754/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1551505754.dir/build.make CMakeFiles/cmTryCompileExec1551505754.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1551505754.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_ACCEPT4   -o CMakeFiles/cmTryCompileExec1551505754.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1551505754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1551505754.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_ACCEPT4    CMakeFiles/cmTryCompileExec1551505754.dir/src.c.o  -o cmTryCompileExec1551505754 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #define _GNU_SOURCE
+    #include <stdio.h>
+    #include <sys/socket.h>
+    int main() {
+        accept4(0, NULL, NULL, 0);
+        return 0;
+    }
+Performing C SOURCE FILE Test FLB_HAVE_INOTIFY succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2493077692/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2493077692.dir/build.make CMakeFiles/cmTryCompileExec2493077692.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2493077692.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_INOTIFY   -o CMakeFiles/cmTryCompileExec2493077692.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2493077692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2493077692.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_INOTIFY    CMakeFiles/cmTryCompileExec2493077692.dir/src.c.o  -o cmTryCompileExec2493077692 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/inotify.h>
+    int main() {
+        return inotify_init1(0);
+    }
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1779681245/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1779681245.dir/build.make CMakeFiles/cmTryCompileExec1779681245.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1779681245.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"'    -o CMakeFiles/cmTryCompileExec1779681245.dir/CheckIncludeFiles.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1779681245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1779681245.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"'     CMakeFiles/cmTryCompileExec1779681245.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1779681245 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec396136118/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec396136118.dir/build.make CMakeFiles/cmTryCompileExec396136118.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec396136118.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"/usr/share/cmake/Modules/CheckFunctionExists.c"' -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec396136118.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec396136118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec396136118.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec396136118.dir/CheckFunctionExists.c.o  -o cmTryCompileExec396136118 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STAT_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4215044106/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4215044106.dir/build.make CMakeFiles/cmTryCompileExec4215044106.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4215044106.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_STAT_H   -o CMakeFiles/cmTryCompileExec4215044106.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:6:9: warning: unused variable 'x' [-Wunused-variable]
+     int x = S_IXUSR;
+         ^
+Linking C executable cmTryCompileExec4215044106
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4215044106.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_STAT_H    CMakeFiles/cmTryCompileExec4215044106.dir/src.c.o  -o cmTryCompileExec4215044106 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/types.h>
+  #include <sys/stat.h>
+  #include <unistd.h>
+  int main() {
+    int x = S_IXUSR;
+    S_ISLNK(0);
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_SYS_UIO_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3007432324/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3007432324.dir/build.make CMakeFiles/cmTryCompileExec3007432324.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3007432324.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_SYS_UIO_H   -o CMakeFiles/cmTryCompileExec3007432324.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3007432324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3007432324.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_SYS_UIO_H    CMakeFiles/cmTryCompileExec3007432324.dir/src.c.o  -o cmTryCompileExec3007432324 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/uio.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_UNISTD_H succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1956019444/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1956019444.dir/build.make CMakeFiles/cmTryCompileExec1956019444.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1956019444.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_UNISTD_H   -o CMakeFiles/cmTryCompileExec1956019444.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1956019444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1956019444.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_UNISTD_H    CMakeFiles/cmTryCompileExec1956019444.dir/src.c.o  -o cmTryCompileExec1956019444 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     return 0;
+  }
+Performing C SOURCE FILE Test HAVE_EPOLL succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1322436607/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1322436607.dir/build.make CMakeFiles/cmTryCompileExec1322436607.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1322436607.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EPOLL   -o CMakeFiles/cmTryCompileExec1322436607.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1322436607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1322436607.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EPOLL    CMakeFiles/cmTryCompileExec1322436607.dir/src.c.o  -o cmTryCompileExec1322436607 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/epoll.h>
+  int main() {
+     return epoll_create(1);
+  }
+Performing C SOURCE FILE Test HAVE_TIMERFD_CREATE succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4034302148/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4034302148.dir/build.make CMakeFiles/cmTryCompileExec4034302148.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4034302148.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_TIMERFD_CREATE   -o CMakeFiles/cmTryCompileExec4034302148.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4034302148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4034302148.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_TIMERFD_CREATE    CMakeFiles/cmTryCompileExec4034302148.dir/src.c.o  -o cmTryCompileExec4034302148 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/timerfd.h>
+  int main() {
+     return timerfd_create(CLOCK_REALTIME, 0);
+  }
+Performing C SOURCE FILE Test HAVE_EVENTFD succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1032364939/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1032364939.dir/build.make CMakeFiles/cmTryCompileExec1032364939.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1032364939.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DHAVE_EVENTFD   -o CMakeFiles/cmTryCompileExec1032364939.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1032364939
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1032364939.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DHAVE_EVENTFD    CMakeFiles/cmTryCompileExec1032364939.dir/src.c.o  -o cmTryCompileExec1032364939 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <sys/eventfd.h>
+  int main() {
+     return eventfd(0, EFD_CLOEXEC);
+  }
+Performing C SOURCE FILE Test FLB_HAVE_FORK succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1274550409/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1274550409.dir/build.make CMakeFiles/cmTryCompileExec1274550409.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1274550409.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_FORK   -o CMakeFiles/cmTryCompileExec1274550409.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1274550409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1274550409.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_FORK    CMakeFiles/cmTryCompileExec1274550409.dir/src.c.o  -o cmTryCompileExec1274550409 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <unistd.h>
+  int main() {
+     fork();
+     return 0;
+  }
+Performing C SOURCE FILE Test FLB_HAVE_C_TLS succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1414959048/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1414959048.dir/build.make CMakeFiles/cmTryCompileExec1414959048.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1414959048.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_C_TLS   -o CMakeFiles/cmTryCompileExec1414959048.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c:4:8: warning: implicit declaration of function '__tls_get_addr' [-Wimplicit-function-declaration]
+        __tls_get_addr(0);
+        ^
+Linking C executable cmTryCompileExec1414959048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1414959048.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_C_TLS    CMakeFiles/cmTryCompileExec1414959048.dir/src.c.o  -o cmTryCompileExec1414959048 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+   __thread int a;
+   int main() {
+       __tls_get_addr(0);
+       return 0;
+   }
+Performing C SOURCE FILE Test FLB_HAVE_ACCEPT4 succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec262545696/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec262545696.dir/build.make CMakeFiles/cmTryCompileExec262545696.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec262545696.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_ACCEPT4   -o CMakeFiles/cmTryCompileExec262545696.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec262545696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec262545696.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_ACCEPT4    CMakeFiles/cmTryCompileExec262545696.dir/src.c.o  -o cmTryCompileExec262545696 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #define _GNU_SOURCE
+    #include <stdio.h>
+    #include <sys/socket.h>
+    int main() {
+        accept4(0, NULL, NULL, 0);
+        return 0;
+    }
+Performing C SOURCE FILE Test FLB_HAVE_INOTIFY succeded with the following output:
+Change Dir: /root/share/fluent-bit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec201583140/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec201583140.dir/build.make CMakeFiles/cmTryCompileExec201583140.dir/build
+gmake[1]: Entering directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec201583140.dir/src.c.o
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"build/CMakeFiles/CMakeTmp/src.c"' -DFLB_HAVE_INOTIFY   -o CMakeFiles/cmTryCompileExec201583140.dir/src.c.o   -c /root/share/fluent-bit/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec201583140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec201583140.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -fPIC  -D__FILENAME__='"$(subst /root/share/fluent-bit/,,$(abspath $<))"' -DFLB_HAVE_INOTIFY    CMakeFiles/cmTryCompileExec201583140.dir/src.c.o  -o cmTryCompileExec201583140 -rdynamic 
+gmake[1]: Leaving directory `/root/share/fluent-bit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <sys/inotify.h>
+    int main() {
+        return inotify_init1(0);
+    }

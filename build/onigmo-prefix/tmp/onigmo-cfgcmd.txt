@@ -1,0 +1,1 @@
+cmd='/root/share/fluent-bit/lib/onigmo/configure;--with-pic;--disable-shared;--enable-static;--prefix=<INSTALL_DIR>;CFLAGS=-std=gnu99 -Wall -pipe -g3 -O3 -funroll-loops'

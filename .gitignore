@@ -1,0 +1,6 @@
+*~
+_book/
+.vs/
+.idea
+
+tests/internal/flb_tests_internal.h

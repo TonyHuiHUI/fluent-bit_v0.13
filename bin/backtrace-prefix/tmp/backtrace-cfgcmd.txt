@@ -1,0 +1,1 @@
+cmd='/root/share/fluent-bit/lib/libbacktrace-177940370/configure;--prefix=<INSTALL_DIR>;--enable-shared=no;--enable-static=yes'

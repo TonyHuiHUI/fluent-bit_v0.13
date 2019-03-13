@@ -1,0 +1,17 @@
+shift_jis.lo: /root/share/fluent-bit/lib/onigmo/enc/shift_jis.c \
+ /usr/include/stdc-predef.h /root/share/fluent-bit/lib/onigmo/regenc.h \
+ config.h /root/share/fluent-bit/lib/onigmo/onigmo.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /root/share/fluent-bit/lib/onigmo/enc/jis/props.h
+
+/usr/include/stdc-predef.h:
+
+/root/share/fluent-bit/lib/onigmo/regenc.h:
+
+config.h:
+
+/root/share/fluent-bit/lib/onigmo/onigmo.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/root/share/fluent-bit/lib/onigmo/enc/jis/props.h:
